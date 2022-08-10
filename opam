@@ -7,8 +7,8 @@ install: [make "install"]
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/LinAlg"]
 depends: [
   "ocaml"
-  "coq" {"8.10~"}
-  "coq-algebra" {"8.10~"}
+  "coq" 
+  "coq-algebra"
 ]
 tags: [
   "keyword: linear algebra"
